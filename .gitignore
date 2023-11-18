@@ -1,3 +1,5 @@
-*.class
+.class
 *.iml
 .idea
+.xml
+*.class
