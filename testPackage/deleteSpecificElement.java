@@ -9,7 +9,7 @@ public class deleteSpecificElement {
         int remove_ele = 4;
 
         //solution- take new array add each element to new array but only when element is not equal to given remove number and keep increasing the index number
-        int[] newArr = new int[arr1.length-1];
+        /*int[] newArr = new int[arr1.length-1];
         int index=0;
 
         for (int i = 0; i < arr1.length; i++) {
@@ -21,6 +21,22 @@ public class deleteSpecificElement {
 
         for (int i = 0; i < newArr.length; i++) {
             System.out.println(newArr[i]);
+        }*/
+
+
+        int[] newarr = new int[arr1.length-1];
+        int index = 0;
+
+        for (int i = 0; i < arr1.length-1; i++) {
+            if(arr1[i]!=remove_ele) {
+                newarr[index] = arr1[i];
+                index++;
+            }
+
+        }
+
+        for (int a:newarr) {
+            System.out.println(a);
         }
 
 
