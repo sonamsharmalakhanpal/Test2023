@@ -4,7 +4,9 @@ public class PerfectSqaureSort {
 
     public static void main(String[] args) {
 
-        int[] arr = {-1, 4, 16, 2, 3};
+        //this approach will work for sorted array only
+
+        int[] arr = {-1, 4, 16};
         int squareArray[] = perfectSortSquare(arr);
         for (int i = 0; i < squareArray.length-1; i++) {
             System.out.println(squareArray[i]);
