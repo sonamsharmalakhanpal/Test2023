@@ -1,5 +1,9 @@
 .class
 *.iml
 .idea
-.xml
+*.xml
 *.class
+.idea
+README.md
+
+
