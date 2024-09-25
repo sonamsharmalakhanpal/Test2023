@@ -1,7 +1,5 @@
-package Tests2024;
+package TestsPackage;
 
-import javax.xml.stream.events.Characters;
-import java.util.HashMap;
 import java.util.HashSet;
 
 public class uniqueSubString {

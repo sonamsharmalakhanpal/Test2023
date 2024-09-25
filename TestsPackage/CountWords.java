@@ -1,4 +1,4 @@
-package Tests2024;
+package TestsPackage;
 
 public class CountWords {
 
